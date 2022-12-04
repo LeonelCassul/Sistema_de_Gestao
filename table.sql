@@ -9,5 +9,4 @@ create table user(
     UNIQUE(email)
 );
 
-insert into user(name,contactNumber,email,password,status,role) 
-values('dmin', '12345678', 'admin@mail.com', 'admin', 'true','admin');
+insert into user(name,contactNumber,email,password,status,role) values('dmin', '12345678', 'admin@mail.com', 'admin', 'true','admin');
