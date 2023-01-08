@@ -35,10 +35,12 @@ router.get('/details',auth.authenticateToken,(req, res,next)=>{
                 product:productCount,
                 bill:billCount
             };
-            
+
         }
         else{
             return res.status(500).json(err);
         }
     })
 })
+
+module.exports = router;
